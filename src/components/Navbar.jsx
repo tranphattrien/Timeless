@@ -31,6 +31,7 @@ const SearchContainer = styled.div`
 `;
 const Input = styled.input`
   border: none;
+  outline: none;
 `;
 const Logo = styled.h1`
   font-family: "Alkatra", cursive;
@@ -71,7 +72,7 @@ const Navbar = () => {
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
-            <Badge badgeContent={4} color="primary">
+            <Badge overlap="rectangular" badgeContent={4} color="primary">
               <ShoppingCartOutlined />
             </Badge>
           </MenuItem>
