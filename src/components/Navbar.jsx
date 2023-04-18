@@ -4,11 +4,11 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  /* height: 60px; */
+  padding-top: 10px;
 `;
 
 const Wrapper = styled.div`
-  padding: 10px 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,7 +36,8 @@ const Input = styled.input`
 const Logo = styled.h1`
   font-family: "Alkatra", cursive;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 70px;
+  line-height: 0;
 `;
 const Center = styled.div`
   flex: 1;
