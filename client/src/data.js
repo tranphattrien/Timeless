@@ -33,7 +33,7 @@ export const categories = [
   {
     id: 3,
     img: "https://curnonwatch.com/_next/image/?url=https%3A%2F%2Fshop.curnonwatch.com%2Fmedia%2Fcatalog%2Fproduct%2Fj%2Fa%2Fjackie-gold-02.jpg&w=1920&q=75",
-    title: "WATCH ACCESSORIES"
+    title: "ACCESSORIES"
   }
 ];
 
